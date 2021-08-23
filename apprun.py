@@ -40,7 +40,7 @@ port = int(os.getenv('PORT', 8000))
 
 @app.route('/')
 def root():
-    return app.send_static_file('index.html')
+    return app.send_static_file('index2.html')
 
 # /* Endpoint to greet and add a new visitor to database.
 # * Send a POST request to localhost:8000/api/visitors with body
